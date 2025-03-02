@@ -19,7 +19,11 @@ Finally, I added the victory text once all 8 cubes were picked up and added a fe
 There are still a few issues I am trying to improve before adding new features, one of them being related to the shadows not being loaded properly when the player is moving across the playground and the AI pathing not always climbing on surfaces the right way(climbing ramps from the side).
 
 Next features to implement for the game:
+
 Obstacles in the course that move which upon collision with the player would toss the player around the playground, I need to take into consideration enemy behaviour
+
 Extra level that could be a follow-up to the already existing one
+
 Power-ups, such as freeze enemies, that could spawn on the playground at random times and places 
+
 Timer mode, which could have an amount of time to complete each level, otherwise the player would lose (this feature could also be just an addition to add a timer in the UI for the user to be able to compare with previous runs)
