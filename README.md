@@ -27,3 +27,17 @@ Extra level that could be a follow-up to the already existing one
 Power-ups, such as freeze enemies, that could spawn on the playground at random times and places 
 
 Timer mode, which could have an amount of time to complete each level, otherwise the player would lose (this feature could also be just an addition to add a timer in the UI for the user to be able to compare with previous runs)
+
+### Roll-a-ball extra features (08/03/2025)
+
+From the last merge there have been some new additions regarding the game. Now there is a second level which will automatically start once the player completes the first level by picking up all the collectibles. The second level also includes a spinning obstacle which will throw the player around if they position in its trajectory. The timer mode has been implemented as a time text that will be displayed all the time in the top right corner of the screen. This timer will stop once the player wins/loses or if the level resets.
+
+There still are a few issues that need to be fixed out of which the most important is that if the player loses they are stuck in the "You lose!" screen and they need to restart the game if they wish to replay. Some other bugs that need to be fixed are that in the second level the second enemy will not dissapear if the player wins.
+
+Some of the challenges that I encountered while implementing these features were handling scenes and figuring how does a game in general handle multiple levels so that they can either be loaded once the player clears the current one or how can the player choose what level they want to play. I figure out that there is a built-in "SceneHandler" that can be used to swap between scenes and give the impression of multiple levels for a user.
+
+Another important challenge was figuring out how to create a script for the obstacle to spin like a helicopter blade in a horizontal plane, while also taking into consideration the interactions with the enemies, not just the player. I decided in the end that the enemies will have the capabilities of climbing over the obstacle, so that the player could not use the obstacle to its advantage and that the enemies would have an upper hand, creating some sense of balance.
+
+There was a challenge related to the timer displayed in the top-right while writing the script, because I thought it is such an obvious choice for a game so it shouldn't be hard, but I was a bit confused how I should approach it so that it brings some value for the player and it is working as intended. Thought that its use would be most relevant if it displayed the time that took for a level run so that the player could compare attempts and strategies. Given this mentality I decided to make the timer stop after the level ends (either by winning or losing), while also progressing to the next level resets the timer from 00:00 so that each level could be compared separately from each other between attempts. 
+
+Out of the "Next feature to implement for the game" I managed to implement 3 out of 4 feature that I proposed for myself, which I consider a success given that they all had their own challenges to overcome and I was careful not to break already existing functionalities while also trying to preserve a frame-rate independent code mentality so that I would avoid performance issues.
