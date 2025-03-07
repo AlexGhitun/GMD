@@ -28,7 +28,7 @@ Power-ups, such as freeze enemies, that could spawn on the playground at random 
 
 Timer mode, which could have an amount of time to complete each level, otherwise the player would lose (this feature could also be just an addition to add a timer in the UI for the user to be able to compare with previous runs)
 
-### Roll-a-ball extra features (08/03/2025)
+### Roll-a-ball extra features (07/03/2025)
 
 From the last merge there have been some new additions regarding the game. Now there is a second level which will automatically start once the player completes the first level by picking up all the collectibles. The second level also includes a spinning obstacle which will throw the player around if they position in its trajectory. The timer mode has been implemented as a time text that will be displayed all the time in the top right corner of the screen. This timer will stop once the player wins/loses or if the level resets.
 
