@@ -42,6 +42,8 @@ There was a challenge related to the timer displayed in the top-right while writ
 
 Out of the "Next feature to implement for the game" I managed to implement 3 out of 4 feature that I proposed for myself, which I consider a success given that they all had their own challenges to overcome and I was careful not to break already existing functionalities while also trying to preserve a frame-rate independent code mentality so that I would avoid performance issues.
 
+
+
 ### Transylvania Morning Routine(29/03/2025)
 
 This project is a 2D platformer game that will serve as the final submission for this course. It is inspired by the game "Celeste", but introduces a unique mechanic: the player must avoid staying in sunlight for too long.
@@ -65,7 +67,9 @@ Planned Environments:
 The game will feature several thematic levels, including:
 
 -A castle or manor
+
 -A spooky garden or cemetery
+
 -A haunted town leading to the final destination
 
 The final area will contrast sharply with the rest of the game’s darker aesthetic—a bright, cheerful café that signifies the completion of the vampire’s quest for coffee.
