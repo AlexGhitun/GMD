@@ -74,6 +74,8 @@ The game will feature several thematic levels, including:
 
 The final area will contrast sharply with the rest of the game’s darker aesthetic—a bright, cheerful café that signifies the completion of the vampire’s quest for coffee.
 
+
+
 Features to implement:
 
 Sun rays and player death if staying too long in them
