@@ -1,5 +1,6 @@
 # GMD
-This repository holds all the GMD assignments that I will make.
+This repository holds the GMD assignment Roll-a-ball that I will make.
+Link to the final assignment for exam: https://github.com/AlexGhitun/GMD_DraculaMorningRoutine.git
 
 ## Development Blog
 
